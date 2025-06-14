@@ -1,7 +1,7 @@
 import express from "express";
-import apiRoutes from "./routes/api.js";
-import { connectDB } from "./config/db.js";
-import connectCloudinary from "./config/cloudinary.js";
+import apiRoutes from "../routes/api.js";
+import { connectDB } from "../config/db.js";
+import connectCloudinary from "../config/cloudinary.js";
 import cors from "cors";
 const app = express();
 app.use(cors());
